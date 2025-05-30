@@ -1,5 +1,13 @@
 # Отчёты
 
+## Скриншоты
+
+![screenshots](screenshots/help.png)
+![screenshots](screenshots/print-report.png)
+![screenshots](screenshots/export-error.png)
+![screenshots](screenshots/exported-data.png)
+![screenshots](screenshots/error-arguments.png)
+
 ## Справка
 
 Справка по использованию скрипта вызывается:

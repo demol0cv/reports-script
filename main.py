@@ -52,10 +52,10 @@ def command_process(args: argparse.Namespace, reports: dict[str, Report]):
             rpt = reports.get(args.report)
             if rpt:
                 rpt.execute(files=args.files)
-            if args.output:
-                rpt.save_to_file(args.files, args.output, args.force)
             else:
                 raise ValueError(f"Отчёт {args.report} не доступен для формирования.")
+            if args.output:
+                rpt.save_to_file(args.files, args.output, args.force)
 
 
 def main():
